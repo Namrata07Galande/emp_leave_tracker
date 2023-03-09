@@ -1,0 +1,44 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>emp_details</title>
+</head>
+<body>
+<h1>Enter the emp Details below:</h1>
+<br>
+<hr>
+<form class="" action="index.html" method="post">
+    <br>
+    user:<input type="text" name="" value="">
+    <br>
+    age:<input type="text" name="" value="">
+    <br>
+    gender:<input type="text" name="" value="">
+    <br>
+    email:<input type="text" name="" value="">
+    <br>
+    department:<input type="text" name="" value="">
+    <br>
+    company_name:<input type="text" name="" value="">
+    <br>
+    leave_availabel:<input type="text" name="" value="">
+    <br>
+    <button type="button" name="button">Submit</button>
+</form>
+ <br>
+<hr>
+-->
+<div>
+    <form method="POST">
+        <h2>The below form is from Django Forms</h2>
+        {{form_d.as_p}}
+        {% csrf_token %}
+        <input type="submit" value="submit">
+    </form>
+</div>
+<!--
+</body>
+</html>
+-->

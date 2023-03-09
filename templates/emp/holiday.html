@@ -1,0 +1,8 @@
+<div>
+    <form method="POST">
+        <h2>The below form is from Django Forms</h2>
+        {{form_d.as_p}}
+        {% csrf_token %}
+        <input type="submit" value="submit">
+    </form>
+</div>
